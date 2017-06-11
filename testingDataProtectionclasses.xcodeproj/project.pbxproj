@@ -7,35 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D36FEA61EED671A00F23240 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D36FEA51EED671A00F23240 /* LoginViewController.m */; };
+		0D3F06361EEDD1E7007E58FF /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F06351EEDD1E7007E58FF /* Utils.m */; };
+		0DFA613A1E2C1F3200921E62 /* Frameworks in Resources */ = {isa = PBXBuildFile; fileRef = 0DFA61391E2C1F3200921E62 /* Frameworks */; };
 		0DFC6E3E1C9F40860030F0C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC6E3D1C9F40860030F0C6 /* main.m */; };
 		0DFC6E411C9F40860030F0C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC6E401C9F40860030F0C6 /* AppDelegate.m */; };
 		0DFC6E441C9F40860030F0C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC6E431C9F40860030F0C6 /* ViewController.m */; };
 		0DFC6E471C9F40860030F0C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DFC6E451C9F40860030F0C6 /* Main.storyboard */; };
 		0DFC6E491C9F40860030F0C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DFC6E481C9F40860030F0C6 /* Assets.xcassets */; };
 		0DFC6E4C1C9F40860030F0C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DFC6E4A1C9F40860030F0C6 /* LaunchScreen.storyboard */; };
-		0DFC6E571C9F40860030F0C6 /* testingDataProtectionclassesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC6E561C9F40860030F0C6 /* testingDataProtectionclassesTests.m */; };
-		0DFC6E621C9F40860030F0C6 /* testingDataProtectionclassesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC6E611C9F40860030F0C6 /* testingDataProtectionclassesUITests.m */; };
 		0DFC6E701CA69D070030F0C6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFC6E6F1CA69D070030F0C6 /* Security.framework */; };
+		0DFC6E711CA839690030F0C6 /* Security.framework in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC6E6F1CA69D070030F0C6 /* Security.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0DFC6E531C9F40860030F0C6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0DFC6E311C9F40860030F0C6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0DFC6E381C9F40860030F0C6;
-			remoteInfo = testingDataProtectionclasses;
-		};
-		0DFC6E5E1C9F40860030F0C6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0DFC6E311C9F40860030F0C6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0DFC6E381C9F40860030F0C6;
-			remoteInfo = testingDataProtectionclasses;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		0D36FEA41EED671A00F23240 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0D36FEA51EED671A00F23240 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0D3F06351EEDD1E7007E58FF /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		0D3F06371EEDD1F8007E58FF /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		0DFA61391E2C1F3200921E62 /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Frameworks; sourceTree = "<group>"; };
+		0DFA613B1E2C1F3E00921E62 /* FridaGadget.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = FridaGadget.dylib; path = testingDataProtectionclasses/Frameworks/FridaGadget.dylib; sourceTree = "<group>"; };
 		0DFC6E391C9F40860030F0C6 /* testingDataProtectionclasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testingDataProtectionclasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFC6E3D1C9F40860030F0C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DFC6E3F1C9F40860030F0C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,10 +37,8 @@
 		0DFC6E481C9F40860030F0C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DFC6E4B1C9F40860030F0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DFC6E4D1C9F40860030F0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DFC6E521C9F40860030F0C6 /* testingDataProtectionclassesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingDataProtectionclassesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFC6E561C9F40860030F0C6 /* testingDataProtectionclassesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testingDataProtectionclassesTests.m; sourceTree = "<group>"; };
 		0DFC6E581C9F40860030F0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DFC6E5D1C9F40860030F0C6 /* testingDataProtectionclassesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingDataProtectionclassesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFC6E611C9F40860030F0C6 /* testingDataProtectionclassesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testingDataProtectionclassesUITests.m; sourceTree = "<group>"; };
 		0DFC6E631C9F40860030F0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DFC6E6F1CA69D070030F0C6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -64,29 +53,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0DFC6E4F1C9F40860030F0C6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0DFC6E5A1C9F40860030F0C6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0DFC6E301C9F40860030F0C6 = {
 			isa = PBXGroup;
 			children = (
+				0DFA613B1E2C1F3E00921E62 /* FridaGadget.dylib */,
 				0DFC6E6F1CA69D070030F0C6 /* Security.framework */,
 				0DFC6E3B1C9F40860030F0C6 /* testingDataProtectionclasses */,
-				0DFC6E551C9F40860030F0C6 /* testingDataProtectionclassesTests */,
 				0DFC6E601C9F40860030F0C6 /* testingDataProtectionclassesUITests */,
 				0DFC6E3A1C9F40860030F0C6 /* Products */,
 			);
@@ -96,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				0DFC6E391C9F40860030F0C6 /* testingDataProtectionclasses.app */,
-				0DFC6E521C9F40860030F0C6 /* testingDataProtectionclassesTests.xctest */,
-				0DFC6E5D1C9F40860030F0C6 /* testingDataProtectionclassesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,13 +80,19 @@
 			children = (
 				0DFC6E3F1C9F40860030F0C6 /* AppDelegate.h */,
 				0DFC6E401C9F40860030F0C6 /* AppDelegate.m */,
+				0DFA61391E2C1F3200921E62 /* Frameworks */,
 				0DFC6E421C9F40860030F0C6 /* ViewController.h */,
 				0DFC6E431C9F40860030F0C6 /* ViewController.m */,
+				0DFC6E551C9F40860030F0C6 /* testingDataProtectionclassesTests */,
 				0DFC6E451C9F40860030F0C6 /* Main.storyboard */,
+				0D3F06351EEDD1E7007E58FF /* Utils.m */,
+				0D3F06371EEDD1F8007E58FF /* Utils.h */,
 				0DFC6E481C9F40860030F0C6 /* Assets.xcassets */,
 				0DFC6E4A1C9F40860030F0C6 /* LaunchScreen.storyboard */,
 				0DFC6E4D1C9F40860030F0C6 /* Info.plist */,
 				0DFC6E3C1C9F40860030F0C6 /* Supporting Files */,
+				0D36FEA41EED671A00F23240 /* LoginViewController.h */,
+				0D36FEA51EED671A00F23240 /* LoginViewController.m */,
 			);
 			path = testingDataProtectionclasses;
 			sourceTree = "<group>";
@@ -133,7 +112,7 @@
 				0DFC6E581C9F40860030F0C6 /* Info.plist */,
 			);
 			path = testingDataProtectionclassesTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		0DFC6E601C9F40860030F0C6 /* testingDataProtectionclassesUITests */ = {
 			isa = PBXGroup;
@@ -164,62 +143,18 @@
 			productReference = 0DFC6E391C9F40860030F0C6 /* testingDataProtectionclasses.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0DFC6E511C9F40860030F0C6 /* testingDataProtectionclassesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0DFC6E691C9F40860030F0C6 /* Build configuration list for PBXNativeTarget "testingDataProtectionclassesTests" */;
-			buildPhases = (
-				0DFC6E4E1C9F40860030F0C6 /* Sources */,
-				0DFC6E4F1C9F40860030F0C6 /* Frameworks */,
-				0DFC6E501C9F40860030F0C6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0DFC6E541C9F40860030F0C6 /* PBXTargetDependency */,
-			);
-			name = testingDataProtectionclassesTests;
-			productName = testingDataProtectionclassesTests;
-			productReference = 0DFC6E521C9F40860030F0C6 /* testingDataProtectionclassesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0DFC6E5C1C9F40860030F0C6 /* testingDataProtectionclassesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0DFC6E6C1C9F40860030F0C6 /* Build configuration list for PBXNativeTarget "testingDataProtectionclassesUITests" */;
-			buildPhases = (
-				0DFC6E591C9F40860030F0C6 /* Sources */,
-				0DFC6E5A1C9F40860030F0C6 /* Frameworks */,
-				0DFC6E5B1C9F40860030F0C6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0DFC6E5F1C9F40860030F0C6 /* PBXTargetDependency */,
-			);
-			name = testingDataProtectionclassesUITests;
-			productName = testingDataProtectionclassesUITests;
-			productReference = 0DFC6E5D1C9F40860030F0C6 /* testingDataProtectionclassesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0DFC6E311C9F40860030F0C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Murphy;
 				TargetAttributes = {
 					0DFC6E381C9F40860030F0C6 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 4PZ7VLN92L;
-					};
-					0DFC6E511C9F40860030F0C6 = {
-						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 0DFC6E381C9F40860030F0C6;
-					};
-					0DFC6E5C1C9F40860030F0C6 = {
-						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 0DFC6E381C9F40860030F0C6;
+						DevelopmentTeam = 9JBL98U442;
 					};
 				};
 			};
@@ -237,8 +172,6 @@
 			projectRoot = "";
 			targets = (
 				0DFC6E381C9F40860030F0C6 /* testingDataProtectionclasses */,
-				0DFC6E511C9F40860030F0C6 /* testingDataProtectionclassesTests */,
-				0DFC6E5C1C9F40860030F0C6 /* testingDataProtectionclassesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,20 +184,7 @@
 				0DFC6E4C1C9F40860030F0C6 /* LaunchScreen.storyboard in Resources */,
 				0DFC6E491C9F40860030F0C6 /* Assets.xcassets in Resources */,
 				0DFC6E471C9F40860030F0C6 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0DFC6E501C9F40860030F0C6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0DFC6E5B1C9F40860030F0C6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				0DFA613A1E2C1F3200921E62 /* Frameworks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,42 +195,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DFC6E711CA839690030F0C6 /* Security.framework in Sources */,
 				0DFC6E441C9F40860030F0C6 /* ViewController.m in Sources */,
 				0DFC6E411C9F40860030F0C6 /* AppDelegate.m in Sources */,
+				0D3F06361EEDD1E7007E58FF /* Utils.m in Sources */,
 				0DFC6E3E1C9F40860030F0C6 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0DFC6E4E1C9F40860030F0C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0DFC6E571C9F40860030F0C6 /* testingDataProtectionclassesTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0DFC6E591C9F40860030F0C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0DFC6E621C9F40860030F0C6 /* testingDataProtectionclassesUITests.m in Sources */,
+				0D36FEA61EED671A00F23240 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0DFC6E541C9F40860030F0C6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0DFC6E381C9F40860030F0C6 /* testingDataProtectionclasses */;
-			targetProxy = 0DFC6E531C9F40860030F0C6 /* PBXContainerItemProxy */;
-		};
-		0DFC6E5F1C9F40860030F0C6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0DFC6E381C9F40860030F0C6 /* testingDataProtectionclasses */;
-			targetProxy = 0DFC6E5E1C9F40860030F0C6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0DFC6E451C9F40860030F0C6 /* Main.storyboard */ = {
@@ -368,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -405,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -419,11 +313,17 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = testingDataProtectionclasses/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testingDataProtectionclasses/Frameworks",
+					"$(PROJECT_DIR)/testingDataProtectionclasses",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.mphy.testingDataProtectionclasses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -434,59 +334,17 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = testingDataProtectionclasses/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testingDataProtectionclasses/Frameworks",
+					"$(PROJECT_DIR)/testingDataProtectionclasses",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.mphy.testingDataProtectionclasses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-			};
-			name = Release;
-		};
-		0DFC6E6A1C9F40860030F0C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = testingDataProtectionclassesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.mphy.testingDataProtectionclassesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testingDataProtectionclasses.app/testingDataProtectionclasses";
-			};
-			name = Debug;
-		};
-		0DFC6E6B1C9F40860030F0C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = testingDataProtectionclassesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.mphy.testingDataProtectionclassesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testingDataProtectionclasses.app/testingDataProtectionclasses";
-			};
-			name = Release;
-		};
-		0DFC6E6D1C9F40860030F0C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = testingDataProtectionclassesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.mphy.testingDataProtectionclassesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = testingDataProtectionclasses;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		0DFC6E6E1C9F40860030F0C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = testingDataProtectionclassesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.mphy.testingDataProtectionclassesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = testingDataProtectionclasses;
-				USES_XCTRUNNER = YES;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -509,22 +367,7 @@
 				0DFC6E681C9F40860030F0C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		0DFC6E691C9F40860030F0C6 /* Build configuration list for PBXNativeTarget "testingDataProtectionclassesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0DFC6E6A1C9F40860030F0C6 /* Debug */,
-				0DFC6E6B1C9F40860030F0C6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		0DFC6E6C1C9F40860030F0C6 /* Build configuration list for PBXNativeTarget "testingDataProtectionclassesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0DFC6E6D1C9F40860030F0C6 /* Debug */,
-				0DFC6E6E1C9F40860030F0C6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

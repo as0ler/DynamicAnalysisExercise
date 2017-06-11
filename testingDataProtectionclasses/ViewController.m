@@ -8,11 +8,12 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ViewController: UIViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -38,12 +39,25 @@
     {
         NSLog(@"Error was code: %d - message: %s", errno, strerror(errno));
     }
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Success", nil)
-                                                    message:NSLocalizedString(@"File created successfully.", )
-                                                   delegate:nil
-                                          cancelButtonTitle:NSLocalizedString(@"OK", nil)
-                                          otherButtonTitles:nil];
-    [alert show];
+    
+    UIAlertController *alert = [UIAlertController
+                                alertControllerWithTitle:@"Success"
+                                message:@"File created successfully."
+                                preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* ok = [UIAlertAction
+                         actionWithTitle:@"OK"
+                         style:UIAlertActionStyleDefault
+                         handler:^(UIAlertAction * action)
+                         {
+                             [alert dismissViewControllerAnimated:YES completion:nil];
+                             
+                         }];
+    
+    [alert addAction:ok];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+
     NSLog(@"File created");
 }
 
@@ -68,12 +82,23 @@
     if(SecItemCopyMatching((__bridge CFDictionaryRef)keychainItem, NULL) == noErr)
     {
         
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"The Item Already Exists", nil)
-                                                        message:NSLocalizedString(@"Updated instead.", )
-                                                       delegate:nil
-                                              cancelButtonTitle:NSLocalizedString(@"OK", nil)
-                                              otherButtonTitles:nil];
-        [alert show];
+        UIAlertController *alert = [UIAlertController
+                                    alertControllerWithTitle:@"The Item Already Exists"
+                                    message:@"Updated instead."
+                                    preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction* ok = [UIAlertAction
+                             actionWithTitle:@"OK"
+                             style:UIAlertActionStyleDefault
+                             handler:^(UIAlertAction * action)
+                             {
+                                 [alert dismissViewControllerAnimated:YES completion:nil];
+                                 
+                             }];
+        
+        [alert addAction:ok];
+        
+        [self presentViewController:alert animated:YES completion:nil];
         
     }else
     {
@@ -81,12 +106,22 @@
         
         OSStatus sts = SecItemAdd((__bridge CFDictionaryRef)keychainItem, NULL);
         NSLog(@"Error Code: %d", (int)sts);
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Success", nil)
-                                                        message:NSLocalizedString(@"Keychain item created successfully.", )
-                                                       delegate:nil
-                                              cancelButtonTitle:NSLocalizedString(@"OK", nil)
-                                              otherButtonTitles:nil];
-        [alert show];
+        
+        UIAlertController *alert = [UIAlertController
+                                    alertControllerWithTitle:@"Success"
+                                    message:@"Keychain item created successfully."
+                                    preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction* ok = [UIAlertAction
+                             actionWithTitle:@"OK"
+                             style:UIAlertActionStyleDefault
+                             handler:^(UIAlertAction * action)
+                             {
+                                 [alert dismissViewControllerAnimated:YES completion:nil];
+                                 
+                             }];
+        
+        [alert addAction:ok];
     }
 }
 
@@ -119,20 +154,40 @@
         
         OSStatus sts = SecItemUpdate((__bridge CFDictionaryRef)keychainItem, (__bridge CFDictionaryRef)attributesToUpdate);
         NSLog(@"Error Code: %d", (int)sts);
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Success", nil)
-                                                        message:NSLocalizedString(@"Keychain item updated successfully.", )
-                                                       delegate:nil
-                                              cancelButtonTitle:NSLocalizedString(@"OK", nil)
-                                              otherButtonTitles:nil];
-        [alert show];
+       
+        UIAlertController *alert = [UIAlertController
+                                    alertControllerWithTitle:@"Success"
+                                    message:@"Keychain item updated successfully."
+                                    preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction* ok = [UIAlertAction
+                             actionWithTitle:@"OK"
+                             style:UIAlertActionStyleDefault
+                             handler:^(UIAlertAction * action)
+                             {
+                                 [alert dismissViewControllerAnimated:YES completion:nil];
+                                 
+                             }];
+        
+        [alert addAction:ok];
     }else
     {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Item Doesn't Exist.", nil)
-                                                        message:NSLocalizedString(@"The item you want to update doesn't exist.", nil)
-                                                       delegate:nil
-                                              cancelButtonTitle:NSLocalizedString(@"OK", nil)
-                                              otherButtonTitles:nil];
-        [alert show];
+
+        UIAlertController *alert = [UIAlertController
+                                    alertControllerWithTitle:@"Item Doesn't Exist."
+                                    message:@"The item you want to update doesn't exist."
+                                    preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction* ok = [UIAlertAction
+                             actionWithTitle:@"OK"
+                             style:UIAlertActionStyleDefault
+                             handler:^(UIAlertAction * action)
+                             {
+                                 [alert dismissViewControllerAnimated:YES completion:nil];
+                                 
+                             }];
+        
+        [alert addAction:ok];
     }
 }
 
@@ -156,20 +211,40 @@
     {
         OSStatus sts = SecItemDelete((__bridge CFDictionaryRef)keychainItem);
         NSLog(@"Error Code: %d", (int)sts);
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Success", nil)
-                                                        message:NSLocalizedString(@"Keychain item deleted successfully.", )
-                                                       delegate:nil
-                                              cancelButtonTitle:NSLocalizedString(@"OK", nil)
-                                              otherButtonTitles:nil];
-        [alert show];
+        
+        UIAlertController *alert = [UIAlertController
+                                    alertControllerWithTitle:@"Success"
+                                    message:@"Keychain item deleted successfully."
+                                    preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction* ok = [UIAlertAction
+                             actionWithTitle:@"OK"
+                             style:UIAlertActionStyleDefault
+                             handler:^(UIAlertAction * action)
+                             {
+                                 [alert dismissViewControllerAnimated:YES completion:nil];
+                                 
+                             }];
+        
+        [alert addAction:ok];
     }else
     {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"The Item Doesn't Exist.", nil)
-                                                        message:NSLocalizedString(@"The item doesn't exist. It may have already been deleted.", nil)
-                                                       delegate:nil
-                                              cancelButtonTitle:NSLocalizedString(@"OK", nil)
-                                              otherButtonTitles:nil];
-        [alert show];
+        UIAlertController *alert = [UIAlertController
+                                    alertControllerWithTitle:@"he Item Doesn't Exist."
+                                    message:@"The item doesn't exist. It may have already been deleted."
+                                    preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction* ok = [UIAlertAction
+                             actionWithTitle:@"OK"
+                             style:UIAlertActionStyleDefault
+                             handler:^(UIAlertAction * action)
+                             {
+                                 [alert dismissViewControllerAnimated:YES completion:nil];
+                                 
+                             }];
+        
+        [alert addAction:ok];
+
     }
 }
 
