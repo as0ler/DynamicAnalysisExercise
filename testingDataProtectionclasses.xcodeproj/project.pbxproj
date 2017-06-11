@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0D36FEA61EED671A00F23240 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D36FEA51EED671A00F23240 /* LoginViewController.m */; };
 		0D3F06361EEDD1E7007E58FF /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F06351EEDD1E7007E58FF /* Utils.m */; };
-		0DFA613A1E2C1F3200921E62 /* Frameworks in Resources */ = {isa = PBXBuildFile; fileRef = 0DFA61391E2C1F3200921E62 /* Frameworks */; };
 		0DFC6E3E1C9F40860030F0C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC6E3D1C9F40860030F0C6 /* main.m */; };
 		0DFC6E411C9F40860030F0C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC6E401C9F40860030F0C6 /* AppDelegate.m */; };
 		0DFC6E441C9F40860030F0C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC6E431C9F40860030F0C6 /* ViewController.m */; };
@@ -25,8 +24,6 @@
 		0D36FEA51EED671A00F23240 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		0D3F06351EEDD1E7007E58FF /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		0D3F06371EEDD1F8007E58FF /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
-		0DFA61391E2C1F3200921E62 /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Frameworks; sourceTree = "<group>"; };
-		0DFA613B1E2C1F3E00921E62 /* FridaGadget.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = FridaGadget.dylib; path = testingDataProtectionclasses/Frameworks/FridaGadget.dylib; sourceTree = "<group>"; };
 		0DFC6E391C9F40860030F0C6 /* testingDataProtectionclasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testingDataProtectionclasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFC6E3D1C9F40860030F0C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DFC6E3F1C9F40860030F0C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,7 +56,6 @@
 		0DFC6E301C9F40860030F0C6 = {
 			isa = PBXGroup;
 			children = (
-				0DFA613B1E2C1F3E00921E62 /* FridaGadget.dylib */,
 				0DFC6E6F1CA69D070030F0C6 /* Security.framework */,
 				0DFC6E3B1C9F40860030F0C6 /* testingDataProtectionclasses */,
 				0DFC6E601C9F40860030F0C6 /* testingDataProtectionclassesUITests */,
@@ -80,7 +76,6 @@
 			children = (
 				0DFC6E3F1C9F40860030F0C6 /* AppDelegate.h */,
 				0DFC6E401C9F40860030F0C6 /* AppDelegate.m */,
-				0DFA61391E2C1F3200921E62 /* Frameworks */,
 				0DFC6E421C9F40860030F0C6 /* ViewController.h */,
 				0DFC6E431C9F40860030F0C6 /* ViewController.m */,
 				0DFC6E551C9F40860030F0C6 /* testingDataProtectionclassesTests */,
@@ -184,7 +179,6 @@
 				0DFC6E4C1C9F40860030F0C6 /* LaunchScreen.storyboard in Resources */,
 				0DFC6E491C9F40860030F0C6 /* Assets.xcassets in Resources */,
 				0DFC6E471C9F40860030F0C6 /* Main.storyboard in Resources */,
-				0DFA613A1E2C1F3200921E62 /* Frameworks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +307,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = testingDataProtectionclasses/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -334,7 +328,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = testingDataProtectionclasses/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
