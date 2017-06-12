@@ -122,6 +122,7 @@
                              }];
         
         [alert addAction:ok];
+        [self presentViewController:alert animated:YES completion:nil];
     }
 }
 
@@ -170,6 +171,7 @@
                              }];
         
         [alert addAction:ok];
+        [self presentViewController:alert animated:YES completion:nil];
     }else
     {
 
@@ -188,6 +190,7 @@
                              }];
         
         [alert addAction:ok];
+        [self presentViewController:alert animated:YES completion:nil];
     }
 }
 
@@ -227,6 +230,7 @@
                              }];
         
         [alert addAction:ok];
+        [self presentViewController:alert animated:YES completion:nil];
     }else
     {
         UIAlertController *alert = [UIAlertController
@@ -244,6 +248,7 @@
                              }];
         
         [alert addAction:ok];
+        [self presentViewController:alert animated:YES completion:nil];
 
     }
 }
