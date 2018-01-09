@@ -34,10 +34,12 @@
     
     if (isJailbroken){
         NSLog(@"Jailbreak Detection: %s", isJailbroken ? "TRUE" :"FALSE" );
+        UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {}];
         UIAlertController *alert = [UIAlertController
                                     alertControllerWithTitle:@"Jailbreak Detected"
                                     message:@"This Device is Jailbroken ;)"
                                     preferredStyle:UIAlertControllerStyleAlert];
+        [alert addAction:okAction];
         [self presentViewController:alert animated:YES completion:nil];
     } else {
         if ([self isLoginValid]) {

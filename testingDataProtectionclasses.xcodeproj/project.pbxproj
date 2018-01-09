@@ -20,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D36EC571EEDE8EB00BB5641 /* FridaGadget.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = FridaGadget.dylib; path = testingDataProtectionclasses/Frameworks/FridaGadget.dylib; sourceTree = "<group>"; };
 		0D36FEA41EED671A00F23240 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		0D36FEA51EED671A00F23240 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		0D3F06351EEDD1E7007E58FF /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
@@ -54,14 +53,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D36EC561EEDE8EA00BB5641 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0D36EC571EEDE8EB00BB5641 /* FridaGadget.dylib */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		0DFC6E301C9F40860030F0C6 = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +60,6 @@
 				0DFC6E3B1C9F40860030F0C6 /* testingDataProtectionclasses */,
 				0DFC6E601C9F40860030F0C6 /* testingDataProtectionclassesUITests */,
 				0DFC6E3A1C9F40860030F0C6 /* Products */,
-				0D36EC561EEDE8EA00BB5641 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
