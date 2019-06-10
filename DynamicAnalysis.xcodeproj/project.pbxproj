@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D26525C22AEB3C800F8BFE6 /* logo68.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D26525B22AEB3C800F8BFE6 /* logo68.png */; };
+		0D26525F22AECA2D00F8BFE6 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D26525E22AECA2D00F8BFE6 /* UserViewController.m */; };
 		0D36FEA61EED671A00F23240 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D36FEA51EED671A00F23240 /* LoginViewController.m */; };
 		0D3F06361EEDD1E7007E58FF /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F06351EEDD1E7007E58FF /* Utils.m */; };
 		0DFC6E3E1C9F40860030F0C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC6E3D1C9F40860030F0C6 /* main.m */; };
@@ -22,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		0D26525B22AEB3C800F8BFE6 /* logo68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo68.png; sourceTree = "<group>"; };
+		0D26525E22AECA2D00F8BFE6 /* UserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		0D26526022AECA4600F8BFE6 /* UserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
 		0D36FEA41EED671A00F23240 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		0D36FEA51EED671A00F23240 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		0D3F06351EEDD1E7007E58FF /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				0DFC6E3C1C9F40860030F0C6 /* Supporting Files */,
 				0D36FEA41EED671A00F23240 /* LoginViewController.h */,
 				0D36FEA51EED671A00F23240 /* LoginViewController.m */,
+				0D26526022AECA4600F8BFE6 /* UserViewController.h */,
+				0D26525E22AECA2D00F8BFE6 /* UserViewController.m */,
 			);
 			path = DynamicAnalysis;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D26525F22AECA2D00F8BFE6 /* UserViewController.m in Sources */,
 				0DFC6E711CA839690030F0C6 /* Security.framework in Sources */,
 				0DFC6E441C9F40860030F0C6 /* MainViewController.m in Sources */,
 				0DFC6E411C9F40860030F0C6 /* AppDelegate.m in Sources */,
@@ -319,7 +325,7 @@
 					"$(PROJECT_DIR)/testingDataProtectionclasses/Frameworks",
 					"$(PROJECT_DIR)/testingDataProtectionclasses",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.mphy.testingDataProtectionclasses;
+				PRODUCT_BUNDLE_IDENTIFIER = org.mphy.DynamicAnalysis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -340,7 +346,7 @@
 					"$(PROJECT_DIR)/testingDataProtectionclasses/Frameworks",
 					"$(PROJECT_DIR)/testingDataProtectionclasses",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.mphy.testingDataProtectionclasses;
+				PRODUCT_BUNDLE_IDENTIFIER = org.mphy.DynamicAnalysis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;

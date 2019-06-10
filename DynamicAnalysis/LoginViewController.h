@@ -15,7 +15,7 @@
 
 - (IBAction)submit:(id)sender;
 
-- (void)doLogin:(id)sender;
+- (void)doLogin;
 - (void)storeCredentialsForUsername:(NSString *)username withPassword:(NSString *)password;
 - (void)doLoginForUsername:(NSString *)username withPassword:(NSString *)password;
 - (NSString *)getPathForFilename:(NSString *)filename;

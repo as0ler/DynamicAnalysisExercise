@@ -1,13 +1,10 @@
-//
-//  LoginViewController.m
-//  testingDataProtectionclasses
-//
 //  Created by Murphy on 11/06/17.
 //  Copyright © 2017 Murphy. All rights reserved.
 //
 
 #import "LoginViewController.h"
 #import "MainViewController.h"
+#import "UserViewController.h"
 #import "Utils.h"
 #import <sqlite3.h>
 
@@ -118,7 +115,7 @@
        
         if (userID >= 0) {
             NSLog(@"%@", [NSString stringWithFormat:@"Username %@ and password %@ are correct!", username, password]);
-            [self performSegueWithIdentifier: @"startAdminView" sender: self];
+            [self performSegueWithIdentifier: @"startUserView" sender: self];
         }
         
         // Clean things up.
@@ -178,7 +175,7 @@
     } else {
         [self doLogin];
         if ([self isUserAdminValid]) {
-            [self performSegueWithIdentifier: @"startUserView" sender: self];
+            [self performSegueWithIdentifier: @"startAdminView" sender: self];
         }
     }
 }
