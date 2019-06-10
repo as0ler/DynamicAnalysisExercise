@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *passwordField;
 
 - (IBAction)submit:(id)sender;
+- (IBAction)getHint:(UIButton *)sender;
 
 - (void)doLogin;
 - (void)storeCredentialsForUsername:(NSString *)username withPassword:(NSString *)password;

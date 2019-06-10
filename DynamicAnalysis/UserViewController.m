@@ -20,7 +20,7 @@
     
     NSUserDefaults *secretDetails = [NSUserDefaults standardUserDefaults];
     
-    [secretDetails setObject:@"PiN53cr3tP" forKey:@"PIN"];
+    [secretDetails setObject:@"1337" forKey:@"PIN"];
     
     [secretDetails synchronize];
     // Do any additional setup after loading the view.
@@ -62,11 +62,10 @@
                                                                     preferredStyle:UIAlertControllerStyleAlert];
             
             UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
-                                                                  handler:^(UIAlertAction * action) {}];
+                                                                  handler:^(UIAlertAction * action) {    [self performSegueWithIdentifier: @"startSecretView" sender: self];}];
             
             [alert addAction:defaultAction];
             [self presentViewController:alert animated:YES completion:nil];
-            
         }
         else{
             UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Invalid!"

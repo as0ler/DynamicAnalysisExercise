@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D26525C22AEB3C800F8BFE6 /* logo68.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D26525B22AEB3C800F8BFE6 /* logo68.png */; };
 		0D26525F22AECA2D00F8BFE6 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D26525E22AECA2D00F8BFE6 /* UserViewController.m */; };
+		0D26526222AED4A500F8BFE6 /* You-Got-It-meme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D26526122AED4A500F8BFE6 /* You-Got-It-meme.jpg */; };
 		0D36FEA61EED671A00F23240 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D36FEA51EED671A00F23240 /* LoginViewController.m */; };
 		0D3F06361EEDD1E7007E58FF /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F06351EEDD1E7007E58FF /* Utils.m */; };
 		0DFC6E3E1C9F40860030F0C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC6E3D1C9F40860030F0C6 /* main.m */; };
@@ -25,6 +26,7 @@
 		0D26525B22AEB3C800F8BFE6 /* logo68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo68.png; sourceTree = "<group>"; };
 		0D26525E22AECA2D00F8BFE6 /* UserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
 		0D26526022AECA4600F8BFE6 /* UserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		0D26526122AED4A500F8BFE6 /* You-Got-It-meme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "You-Got-It-meme.jpg"; sourceTree = "<group>"; };
 		0D36FEA41EED671A00F23240 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		0D36FEA51EED671A00F23240 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		0D3F06351EEDD1E7007E58FF /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				0D26525B22AEB3C800F8BFE6 /* logo68.png */,
+				0D26526122AED4A500F8BFE6 /* You-Got-It-meme.jpg */,
 				0DFC6E3F1C9F40860030F0C6 /* AppDelegate.h */,
 				0DFC6E401C9F40860030F0C6 /* AppDelegate.m */,
 				0DFC6E421C9F40860030F0C6 /* MainViewController.h */,
@@ -187,6 +190,7 @@
 			files = (
 				0D26525C22AEB3C800F8BFE6 /* logo68.png in Resources */,
 				0DFC6E4C1C9F40860030F0C6 /* LaunchScreen.storyboard in Resources */,
+				0D26526222AED4A500F8BFE6 /* You-Got-It-meme.jpg in Resources */,
 				0DFC6E491C9F40860030F0C6 /* Assets.xcassets in Resources */,
 				0DFC6E471C9F40860030F0C6 /* Main.storyboard in Resources */,
 			);

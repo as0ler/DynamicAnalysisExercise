@@ -10,6 +10,43 @@
 @end
 
 @implementation MainViewController: UIViewController
+- (IBAction)connectHTTP:(id)sender {
+    NSString * const SERVERCOMMUNICATION_USER_URL = @"https://pwn.0xmurphy.me/secret";
+
+    NSString *username = @"master";
+    NSString *password = @"Y3t4NotherP4ss";
+    
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:SERVERCOMMUNICATION_USER_URL]];
+
+    [request setHTTPMethod:@"POST"];
+    [request addValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    NSString *parameterString =[NSString stringWithFormat:@"user=%@&password=%@", username, password];
+    NSData *postData = [parameterString dataUsingEncoding:NSUTF8StringEncoding];
+    [request setHTTPBody:postData];
+    NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+    if (conn) {}
+    UIAlertController *alert = [UIAlertController
+                                alertControllerWithTitle:@"Success"
+                                message:@"HTTP sent successfully."
+                                preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* ok = [UIAlertAction
+                         actionWithTitle:@"OK"
+                         style:UIAlertActionStyleDefault
+                         handler:^(UIAlertAction * action)
+                         {
+                             [alert dismissViewControllerAnimated:YES completion:nil];
+                             
+                         }];
+    
+    [alert addAction:ok];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
+    NSLog(@"HTTP Sent");
+    
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,7 +62,7 @@
     NSLog(@"Creating File With DataProtection -> ");
     NSFileManager *filemgr;
     filemgr = [NSFileManager defaultManager];
-    NSString *str = @"This is Demo\n";
+    NSString *str = @"This demo content is created inside the app container :D\n";
     NSData *content = [str dataUsingEncoding:NSUTF8StringEncoding];
     
     NSString *tmpDirectory = NSTemporaryDirectory();

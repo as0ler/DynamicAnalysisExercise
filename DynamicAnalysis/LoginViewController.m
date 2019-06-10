@@ -17,6 +17,8 @@
 @synthesize usernameField;
 @synthesize passwordField;
 
+
+
 - (NSString *)getPathForFilename:(NSString *)filename {
     // Get the path to the Documents directory belonging to this app.
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -178,5 +180,25 @@
             [self performSegueWithIdentifier: @"startAdminView" sender: self];
         }
     }
+}
+
+- (IBAction)getHint:(UIButton *)sender {
+    UIAlertController *alert = [UIAlertController
+                                alertControllerWithTitle:@"HINT"
+                                message:@"Some Data is insecurely stored."
+                                preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* ok = [UIAlertAction
+                         actionWithTitle:@"OK"
+                         style:UIAlertActionStyleDefault
+                         handler:^(UIAlertAction * action)
+                         {
+                             [alert dismissViewControllerAnimated:YES completion:nil];
+                             
+                         }];
+    
+    [alert addAction:ok];
+    
+    [self presentViewController:alert animated:YES completion:nil];
 }
 @end

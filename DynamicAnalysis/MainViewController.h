@@ -6,6 +6,11 @@
 
 @interface MainViewController : UIViewController
 
+- (IBAction)createFile:(id)sender;
+- (IBAction)connectHTTP:(id)sender;
+- (IBAction)createKeychainData:(id)sender;
+- (IBAction)updateKeychainData:(id)sender;
+- (IBAction)deleteKeychainData:(id)sender;
 
 @end
 
