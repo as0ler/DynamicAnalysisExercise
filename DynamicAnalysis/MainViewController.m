@@ -1,19 +1,15 @@
-//
-//  ViewController.m
-//  testingDataProtectionclasses
-//
 //  Created by Murphy on 20/03/16.
 //  Copyright © 2016 Murphy. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 
 
-@interface ViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation ViewController: UIViewController
+@implementation MainViewController: UIViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -1,18 +1,14 @@
-//
-//  testingDataProtectionclassesUITests.m
-//  testingDataProtectionclassesUITests
-//
 //  Created by Murphy on 20/03/16.
 //  Copyright © 2016 Murphy. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface testingDataProtectionclassesUITests : XCTestCase
+@interface DynamicAnalysisUITests : XCTestCase
 
 @end
 
-@implementation testingDataProtectionclassesUITests
+@implementation DynamicAnalysisUITests
 
 - (void)setUp {
     [super setUp];

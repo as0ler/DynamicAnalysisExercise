@@ -1,7 +1,3 @@
-//
-//  Utils.h
-//  testingDataProtectionclasses
-//
 //  Created by Murphy on 11/06/17.
 //  Copyright © 2017 Murphy. All rights reserved.
 //
