@@ -162,8 +162,8 @@
 */
 
 - (IBAction)submit:(id)sender {
-    // BOOL isJailbroken = [Utils isJailbroken];
-    BOOL isJailbroken = FALSE;
+     BOOL isJailbroken = [Utils isJailbroken];
+    //BOOL isJailbroken = FALSE;
     
     if (isJailbroken){
         NSLog(@"Jailbreak Detection: %s", isJailbroken ? "TRUE" :"FALSE" );
