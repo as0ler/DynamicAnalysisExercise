@@ -10,10 +10,27 @@
 		0D26525C22AEB3C800F8BFE6 /* logo68.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D26525B22AEB3C800F8BFE6 /* logo68.png */; };
 		0D26525F22AECA2D00F8BFE6 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D26525E22AECA2D00F8BFE6 /* UserViewController.m */; };
 		0D26526222AED4A500F8BFE6 /* You-Got-It-meme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D26526122AED4A500F8BFE6 /* You-Got-It-meme.jpg */; };
-		0D26526422AF9A7700F8BFE6 /* Frameworks in Resources */ = {isa = PBXBuildFile; fileRef = 0D26526322AF9A7700F8BFE6 /* Frameworks */; };
-		0D26526722AF9A8C00F8BFE6 /* FridaGadget.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D26526622AF9A8C00F8BFE6 /* FridaGadget.dylib */; };
 		0D36FEA61EED671A00F23240 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D36FEA51EED671A00F23240 /* LoginViewController.m */; };
 		0D3F06361EEDD1E7007E58FF /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F06351EEDD1E7007E58FF /* Utils.m */; };
+		0D87E80823CB611800A42539 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E7F823CB611800A42539 /* Icon-App-76x76@2x.png */; };
+		0D87E80923CB611800A42539 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E7F923CB611800A42539 /* Icon-App-29x29@1x.png */; };
+		0D87E80A23CB611800A42539 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E7FA23CB611800A42539 /* Icon-App-40x40@1x.png */; };
+		0D87E80B23CB611800A42539 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E7FB23CB611800A42539 /* Icon-App-20x20@1x.png */; };
+		0D87E80C23CB611800A42539 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E7FC23CB611800A42539 /* Icon-App-83.5x83.5@2x.png */; };
+		0D87E80D23CB611800A42539 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E7FD23CB611800A42539 /* Icon-App-20x20@3x.png */; };
+		0D87E80E23CB611800A42539 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E7FE23CB611800A42539 /* ItunesArtwork@2x.png */; };
+		0D87E80F23CB611800A42539 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E7FF23CB611800A42539 /* Contents.json */; };
+		0D87E81023CB611800A42539 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E80023CB611800A42539 /* Icon-App-20x20@2x.png */; };
+		0D87E81123CB611800A42539 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E80123CB611800A42539 /* Icon-App-29x29@3x.png */; };
+		0D87E81223CB611800A42539 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E80223CB611800A42539 /* Icon-App-40x40@2x.png */; };
+		0D87E81323CB611800A42539 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E80323CB611800A42539 /* Icon-App-60x60@3x.png */; };
+		0D87E81423CB611800A42539 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E80423CB611800A42539 /* Icon-App-60x60@2x.png */; };
+		0D87E81523CB611800A42539 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E80523CB611800A42539 /* Icon-App-76x76@1x.png */; };
+		0D87E81623CB611800A42539 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E80623CB611800A42539 /* Icon-App-40x40@3x.png */; };
+		0D87E81723CB611800A42539 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E80723CB611800A42539 /* Icon-App-29x29@2x.png */; };
+		0D87E82C23CB7A3B00A42539 /* FridaGadget.config in Resources */ = {isa = PBXBuildFile; fileRef = 0D87E82A23CB7A3B00A42539 /* FridaGadget.config */; };
+		0D87E82E23CB7A6E00A42539 /* FridaGadget.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D87E82923CB7A3B00A42539 /* FridaGadget.dylib */; };
+		0D87E82F23CB7AB900A42539 /* FridaGadget.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 0D87E82923CB7A3B00A42539 /* FridaGadget.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		0DFC6E3E1C9F40860030F0C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC6E3D1C9F40860030F0C6 /* main.m */; };
 		0DFC6E411C9F40860030F0C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC6E401C9F40860030F0C6 /* AppDelegate.m */; };
 		0DFC6E441C9F40860030F0C6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC6E431C9F40860030F0C6 /* MainViewController.m */; };
@@ -24,17 +41,47 @@
 		0DFC6E711CA839690030F0C6 /* Security.framework in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC6E6F1CA69D070030F0C6 /* Security.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0D87E83023CB7AB900A42539 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0D87E82F23CB7AB900A42539 /* FridaGadget.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0D26525B22AEB3C800F8BFE6 /* logo68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo68.png; sourceTree = "<group>"; };
 		0D26525E22AECA2D00F8BFE6 /* UserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
 		0D26526022AECA4600F8BFE6 /* UserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
 		0D26526122AED4A500F8BFE6 /* You-Got-It-meme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "You-Got-It-meme.jpg"; sourceTree = "<group>"; };
-		0D26526322AF9A7700F8BFE6 /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Frameworks; sourceTree = "<group>"; };
-		0D26526622AF9A8C00F8BFE6 /* FridaGadget.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = FridaGadget.dylib; path = DynamicAnalysis/Frameworks/FridaGadget.dylib; sourceTree = "<group>"; };
 		0D36FEA41EED671A00F23240 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		0D36FEA51EED671A00F23240 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		0D3F06351EEDD1E7007E58FF /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		0D3F06371EEDD1F8007E58FF /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		0D87E7F823CB611800A42539 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		0D87E7F923CB611800A42539 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		0D87E7FA23CB611800A42539 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		0D87E7FB23CB611800A42539 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		0D87E7FC23CB611800A42539 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		0D87E7FD23CB611800A42539 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		0D87E7FE23CB611800A42539 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
+		0D87E7FF23CB611800A42539 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		0D87E80023CB611800A42539 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		0D87E80123CB611800A42539 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		0D87E80223CB611800A42539 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		0D87E80323CB611800A42539 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		0D87E80423CB611800A42539 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		0D87E80523CB611800A42539 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		0D87E80623CB611800A42539 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		0D87E80723CB611800A42539 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		0D87E82923CB7A3B00A42539 /* FridaGadget.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = FridaGadget.dylib; sourceTree = "<group>"; };
+		0D87E82A23CB7A3B00A42539 /* FridaGadget.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FridaGadget.config; sourceTree = "<group>"; };
 		0DFC6E391C9F40860030F0C6 /* DynamicAnalysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicAnalysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFC6E3D1C9F40860030F0C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DFC6E3F1C9F40860030F0C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,30 +104,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D26526722AF9A8C00F8BFE6 /* FridaGadget.dylib in Frameworks */,
 				0DFC6E701CA69D070030F0C6 /* Security.framework in Frameworks */,
+				0D87E82E23CB7A6E00A42539 /* FridaGadget.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D26526522AF9A8C00F8BFE6 /* Frameworks */ = {
+		0D87E7F723CB611800A42539 /* AppIcon.appiconset */ = {
 			isa = PBXGroup;
 			children = (
-				0D26526622AF9A8C00F8BFE6 /* FridaGadget.dylib */,
+				0D87E7F823CB611800A42539 /* Icon-App-76x76@2x.png */,
+				0D87E7F923CB611800A42539 /* Icon-App-29x29@1x.png */,
+				0D87E7FA23CB611800A42539 /* Icon-App-40x40@1x.png */,
+				0D87E7FB23CB611800A42539 /* Icon-App-20x20@1x.png */,
+				0D87E7FC23CB611800A42539 /* Icon-App-83.5x83.5@2x.png */,
+				0D87E7FD23CB611800A42539 /* Icon-App-20x20@3x.png */,
+				0D87E7FE23CB611800A42539 /* ItunesArtwork@2x.png */,
+				0D87E7FF23CB611800A42539 /* Contents.json */,
+				0D87E80023CB611800A42539 /* Icon-App-20x20@2x.png */,
+				0D87E80123CB611800A42539 /* Icon-App-29x29@3x.png */,
+				0D87E80223CB611800A42539 /* Icon-App-40x40@2x.png */,
+				0D87E80323CB611800A42539 /* Icon-App-60x60@3x.png */,
+				0D87E80423CB611800A42539 /* Icon-App-60x60@2x.png */,
+				0D87E80523CB611800A42539 /* Icon-App-76x76@1x.png */,
+				0D87E80623CB611800A42539 /* Icon-App-40x40@3x.png */,
+				0D87E80723CB611800A42539 /* Icon-App-29x29@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		0D87E82623CB79CF00A42539 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D87E82823CB7A3B00A42539 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D87E82923CB7A3B00A42539 /* FridaGadget.dylib */,
+				0D87E82A23CB7A3B00A42539 /* FridaGadget.config */,
+			);
+			name = Frameworks;
+			path = ../../../../../../Desktop/Frameworks;
 			sourceTree = "<group>";
 		};
 		0DFC6E301C9F40860030F0C6 = {
 			isa = PBXGroup;
 			children = (
+				0D87E7F723CB611800A42539 /* AppIcon.appiconset */,
 				0DFC6E6F1CA69D070030F0C6 /* Security.framework */,
 				0DFC6E3B1C9F40860030F0C6 /* DynamicAnalysis */,
 				0DFC6E601C9F40860030F0C6 /* DynamicAnalysisUITests */,
 				0DFC6E3A1C9F40860030F0C6 /* Products */,
-				0D26526522AF9A8C00F8BFE6 /* Frameworks */,
+				0D87E82623CB79CF00A42539 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +179,7 @@
 				0D26526122AED4A500F8BFE6 /* You-Got-It-meme.jpg */,
 				0DFC6E3F1C9F40860030F0C6 /* AppDelegate.h */,
 				0DFC6E401C9F40860030F0C6 /* AppDelegate.m */,
-				0D26526322AF9A7700F8BFE6 /* Frameworks */,
+				0D87E82823CB7A3B00A42539 /* Frameworks */,
 				0DFC6E421C9F40860030F0C6 /* MainViewController.h */,
 				0DFC6E431C9F40860030F0C6 /* MainViewController.m */,
 				0DFC6E551C9F40860030F0C6 /* DynamicAnalysisTests */,
@@ -154,6 +234,7 @@
 				0DFC6E351C9F40860030F0C6 /* Sources */,
 				0DFC6E361C9F40860030F0C6 /* Frameworks */,
 				0DFC6E371C9F40860030F0C6 /* Resources */,
+				0D87E83023CB7AB900A42539 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -175,7 +256,7 @@
 				TargetAttributes = {
 					0DFC6E381C9F40860030F0C6 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 9JBL98U442;
+						DevelopmentTeam = 4PZ7VLN92L;
 					};
 				};
 			};
@@ -203,12 +284,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D87E80E23CB611800A42539 /* ItunesArtwork@2x.png in Resources */,
 				0D26525C22AEB3C800F8BFE6 /* logo68.png in Resources */,
 				0DFC6E4C1C9F40860030F0C6 /* LaunchScreen.storyboard in Resources */,
 				0D26526222AED4A500F8BFE6 /* You-Got-It-meme.jpg in Resources */,
-				0D26526422AF9A7700F8BFE6 /* Frameworks in Resources */,
+				0D87E80B23CB611800A42539 /* Icon-App-20x20@1x.png in Resources */,
+				0D87E81123CB611800A42539 /* Icon-App-29x29@3x.png in Resources */,
+				0D87E80923CB611800A42539 /* Icon-App-29x29@1x.png in Resources */,
+				0D87E81523CB611800A42539 /* Icon-App-76x76@1x.png in Resources */,
+				0D87E80823CB611800A42539 /* Icon-App-76x76@2x.png in Resources */,
+				0D87E81423CB611800A42539 /* Icon-App-60x60@2x.png in Resources */,
+				0D87E81323CB611800A42539 /* Icon-App-60x60@3x.png in Resources */,
+				0D87E81223CB611800A42539 /* Icon-App-40x40@2x.png in Resources */,
+				0D87E81023CB611800A42539 /* Icon-App-20x20@2x.png in Resources */,
+				0D87E80A23CB611800A42539 /* Icon-App-40x40@1x.png in Resources */,
 				0DFC6E491C9F40860030F0C6 /* Assets.xcassets in Resources */,
+				0D87E81723CB611800A42539 /* Icon-App-29x29@2x.png in Resources */,
 				0DFC6E471C9F40860030F0C6 /* Main.storyboard in Resources */,
+				0D87E80C23CB611800A42539 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				0D87E81623CB611800A42539 /* Icon-App-40x40@3x.png in Resources */,
+				0D87E80D23CB611800A42539 /* Icon-App-20x20@3x.png in Resources */,
+				0D87E82C23CB7A3B00A42539 /* FridaGadget.config in Resources */,
+				0D87E80F23CB611800A42539 /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +368,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -314,6 +412,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -337,16 +436,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4PZ7VLN92L;
 				INFOPLIST_FILE = "$(SRCROOT)/DynamicAnalysis/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/testingDataProtectionclasses/Frameworks",
 					"$(PROJECT_DIR)/testingDataProtectionclasses",
 					"$(PROJECT_DIR)/DynamicAnalysis/Frameworks",
+					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.mphy.DynamicAnalysis;
+				PRODUCT_BUNDLE_IDENTIFIER = me.murphy.DynamicAnalysis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -356,19 +457,25 @@
 		0DFC6E681C9F40860030F0C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					x86/x64,
+					"$(ARCHS_STANDARD)",
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4PZ7VLN92L;
 				INFOPLIST_FILE = "$(SRCROOT)/DynamicAnalysis/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/testingDataProtectionclasses/Frameworks",
 					"$(PROJECT_DIR)/testingDataProtectionclasses",
 					"$(PROJECT_DIR)/DynamicAnalysis/Frameworks",
+					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.mphy.DynamicAnalysis;
+				PRODUCT_BUNDLE_IDENTIFIER = me.murphy.DynamicAnalysis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;

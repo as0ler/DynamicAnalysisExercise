@@ -62,7 +62,7 @@
     NSLog(@"Creating File With DataProtection -> ");
     NSFileManager *filemgr;
     filemgr = [NSFileManager defaultManager];
-    NSString *str = @"This demo content is created inside the app container :D\n";
+    NSString *str = @"Here another secret stored in the filesystem. => p4ssw0rd!\n";
     NSData *content = [str dataUsingEncoding:NSUTF8StringEncoding];
     
     NSString *tmpDirectory = NSTemporaryDirectory();
